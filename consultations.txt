@@ -1,0 +1,9 @@
+A001|P001|D001|Fever|Medicine and rest
+A002|P002|D002|Tooth Pain|Dental treatment
+A004|P004|D003|Chest Pain|ECG and medication
+A006|P006|D004|Skin Allergy|Cream prescribed
+A008|P008|D006|Flu|Medication prescribed
+A009|P009|D001|Back Pain|Painkiller prescribed
+A011|P003|D005|Fracture|X-ray and treatment
+A012|P006|D004|Rash|Follow-up consultation
+A013|P003|D006|Stomach Pain|Painkiller & Drink more water

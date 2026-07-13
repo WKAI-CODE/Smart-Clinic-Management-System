@@ -1,0 +1,6 @@
+D001|Dr Lao|General Medicine|50.0|09:00-17:00
+D002|Dr Tan|Cardiology|80.00|09:00-17:00
+D003|Dr Wong|Dermatology|70.00|09:00-17:00
+D004|Dr Lee|Pediatrics|60.00|09:00-17:00
+D005|Dr Kumar|Orthopedics|90.00|09:00-17:00
+D006|Dr Ng|Neurology|120.00|09:00-17:00
