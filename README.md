@@ -178,19 +178,12 @@ Smart-Clinic-Management-System
 This project uses \*\*text files\*\* as a simple database.
 
 | File | Description |
-
 |------|-------------|
-
 | patient.txt | Stores patient information |
-
 | doctors.txt | Stores doctor information |
-
 | appointments.txt | Stores appointment records |
-
 | consultations.txt | Stores consultation records |
-
 | billing.txt | Stores billing and payment records |
-
 | clinic\_settings.txt | Stores clinic settings |
 
 \---
@@ -271,8 +264,10 @@ Possible future enhancements include:
 
 \---
 
-\# 📄 License
+## Notice
 
-This project is shared for educational and portfolio purposes.
+This repository is shared for educational and portfolio purposes.
+
+The project was developed as part of a university group assignment. Please do not copy or submit this work as your own academic assignment.
 
 \---
