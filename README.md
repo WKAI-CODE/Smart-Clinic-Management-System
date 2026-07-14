@@ -1,3 +1,27 @@
+# 🏥 Smart Clinic Management System
+
+A modular **file-based Clinic Management System** developed in **Python** as a university group project. The system is designed to manage the daily operations of a clinic, including patient registration, appointment scheduling, consultation recording, billing, payment processing, and administrative reporting.
+
+---
+
+
+## 📖 Project Overview
+
+The Smart Clinic Management System is a console-based application that simulates the workflow of a real clinic. The project is divided into four modules:
+
+- Receptionist
+
+- Doctor
+
+- Finance Officer
+
+- Administrator
+
+Each module is responsible for a different part of the clinic management process, while sharing the same text-file database.
+
+---
+
+
 ## 🎥 Project Demo
 
 This project demonstrates a complete clinic workflow:
@@ -9,154 +33,130 @@ This project demonstrates a complete clinic workflow:
 5. Finance Officer records payment.
 6. Administrator views clinic reports.
 
-\---
-
-
-## 🏥 Smart Clinic Management System
-
-A modular \*\*file-based Clinic Management System\*\* developed in \*\*Python\*\* as a university group project. The system is designed to manage the daily operations of a clinic, including patient registration, appointment scheduling, consultation recording, billing, payment processing, and administrative reporting.
-
-\---
-
-
-## 📖 Project Overview
-
-The Smart Clinic Management System is a console-based application that simulates the workflow of a real clinic. The project is divided into four modules:
-
-\- Receptionist
-
-\- Doctor
-
-\- Finance Officer
-
-\- Administrator
-
-Each module is responsible for a different part of the clinic management process, while sharing the same text-file database.
-
-\---
+---
 
 
 ## 📸 Screenshots
 
-\## Main Menu
+#### Main Menu
 
-!\[Main Menu](screenshots/main_menu.png)
+![Main Menu](screenshots/main_menu.png)
 
-\---
+---
 
-\## Receptionist Module
+#### Receptionist Module
 
-!\[Receptionist(screenshots/receptionist_1.png)
+![Receptionist](screenshots/receptionist_1.png)
 
-!\[Receptionist](screenshots/receptionist_2.png)
+![Receptionist](screenshots/receptionist_2.png)
 
-\---
+---
 
-\## Doctor Module
+#### Doctor Module
 
-!\[Doctor](screenshots/doctor_1.png)
+![Doctor](screenshots/doctor_1.png)
 
-!\[Doctor](screenshots/doctor_2.png)
+![Doctor](screenshots/doctor_2.png)
 
-\---
+---
 
-\## Finance Module
+#### Finance Module
 
-!\[Finance](screenshots/finance_1.png)
+![Finance](screenshots/finance_1.png)
 
-!\[Finance](screenshots/finance_2.png)
+![Finance](screenshots/finance_2.png)
 
-\---
+---
 
-\## Admin Module
+#### Admin Module
 
-!\[Admin](screenshots/admin_1.png)
+![Admin](screenshots/admin_1.png)
 
-!\[Admin](screenshots/admin_2.png)
+![Admin](screenshots/admin_2.png)
 
-\---
+---
 
 
 ## ✨ Features
 
-\## 👩‍💼 Receptionist
+#### 👩‍💼 Receptionist
 
-\- Register new patients
+- Register new patients
 
-\- Book appointments
+- Book appointments
 
-\- Reschedule appointments
+- Reschedule appointments
 
-\- Cancel appointments
+- Cancel appointments
 
-\- Check doctor availability
+- Check doctor availability
 
-\---
+---
 
-\## 👨‍⚕️ Doctor
+#### 👨‍⚕️ Doctor
 
-\- View appointment schedule
+- View appointment schedule
 
-\- Record consultation details
+- Record consultation details
 
-\- Update appointment status
+- Update appointment status
 
-\- Save consultation records
+- Save consultation records
 
-\---
+---
 
-\## 💰 Finance Officer
+#### 💰 Finance Officer
 
-\- Generate patient bills
+- Generate patient bills
 
-\- Record payment methods
+- Record payment methods
 
-\- View outstanding payments
+- View outstanding payments
 
-\- Generate daily revenue reports
+- Generate daily revenue reports
 
-\- Generate revenue reports by doctor
+- Generate revenue reports by doctor
 
-\- View bill details
+- View bill details
 
-\---
+---
 
-\## 👨‍💻 Administrator
+#### 👨‍💻 Administrator
 
-\- Add new doctors
+- Add new doctors
 
-\- Update doctor information
+- Update doctor information
 
-\- Remove doctors
+- Remove doctors
 
-\- View doctor list
+- View doctor list
 
-\- Generate clinic reports
+- Generate clinic reports
 
-\---
+---
 
 
 ## 💻 Technologies Used
 
-\- Python 3
+- Python 3
 
-\- File Handling
+- File Handling
 
-\- Functions
+- Functions
 
-\- Conditional Statements
+- Conditional Statements
 
-\- Loops
+- Loops
 
-\- Dictionaries
+- Dictionaries
 
-\- Tuples
+- Tuples
 
-\- Exception Handling
+- Exception Handling
 
-\- Text File Database
+- Text File Database
 
-\---
+---
 
 
 ## 📂 Project Structure
@@ -165,35 +165,39 @@ Each module is responsible for a different part of the clinic management process
 Smart-Clinic-Management-System
 │
 ├── main.py
-├── receptionist\_part.py
-├── doctor\_part.py
-├── finance\_officer\_part.py
-├── admin\_part.py
+├── receptionist_part.py
+├── doctor_part.py
+├── finance_officer_part.py
+├── admin_part.py
 │
 ├── patient.txt
 ├── doctors.txt
 ├── appointments.txt
 ├── consultations.txt
 ├── billing.txt
-├── clinic\_settings.txt
+├── clinic_settings.txt
 │
 ├── screenshots/
-│   ├── main\_menu.png
-│   ├── receptionist.png
-│   ├── doctor.png
-│   ├── finance.png
-│   └── admin.png
+│   ├── receptionist_1.png
+|   ├── receptionist_2.png
+|   ├── doctor_1.png
+|   ├── doctor_2.png
+|   ├── finance_1.png
+|   ├── finance_2.png
+|   ├── admin_1.png
+|   ├── admin_2.png
+|   └── main_menu.png
 │
 └── README.md
 
 ```
 
-\---
+---
 
 
 ## 💾 Data Storage
 
-This project uses \*\*text files\*\* as a simple database.
+This project uses **text files** as a simple database.
 
 | File | Description |
 |------|-------------|
@@ -202,55 +206,55 @@ This project uses \*\*text files\*\* as a simple database.
 | appointments.txt | Stores appointment records |
 | consultations.txt | Stores consultation records |
 | billing.txt | Stores billing and payment records |
-| clinic\_settings.txt | Stores clinic settings |
+| clinic_settings.txt | Stores clinic settings |
 
-\---
+---
 
 
 ## 🚀 How to Run
 
-1\. Download or clone this repository.
+1. Download or clone this repository.
 
-2\. Ensure Python 3 is installed.
+2. Ensure Python 3 is installed.
 
-3\. Open the project folder.
+3. Open the project folder.
 
-4\. Run:
+4. Run:
 
 ```bash
 python main.py
 ```
 
-5\. Follow the menu displayed in the terminal.
+5. Follow the menu displayed in the terminal.
 
-\---
+---
 
 
 ## 👨‍💻 My Contribution
 
-This project was developed as a \*\*university group assignment\*\*.
+This project was developed as a **university group assignment**.
 
 My primary responsibilities included:
 
-\- Designing and developing the \*\*Finance Officer Module\*\*
+- Designing and developing the **Finance Officer Module**
 
-\- Bill generation
+- Bill generation
 
-\- Payment recording
+- Payment recording
 
-\- Daily revenue reporting
+- Daily revenue reporting
 
-\- Revenue report by doctor
+- Revenue report by doctor
 
-\- Outstanding payment report
+- Outstanding payment report
 
-\- Bill detail lookup
+- Bill detail lookup
 
-\- System integration testing between all modules
+- System integration testing between all modules
 
 I also participated in debugging, testing, and ensuring compatibility between the Receptionist, Doctor, Finance Officer, and Administrator modules.
 
-\---
+---
 
 
 ## 🛠️ Skills Demonstrated
@@ -269,46 +273,22 @@ I also participated in debugging, testing, and ensuring compatibility between th
 
 - Team Collaboration
 
-\---
-
-## 📈 Future Improvements
-
-Possible future enhancements include:
-
-\- Replace text files with SQLite or MySQL
-
-\- Develop a graphical user interface (GUI)
-
-\- Add user authentication and login system
-
-\- Generate PDF invoices and reports
-
-\- Email appointment reminders
-
-\- Dashboard with charts and statistics
-
-\- Online appointment booking
-
-\- Cloud database integration
-
-\---
+---
 
 
 ## 📚 Academic Information
 
-\*\*Course:\*\* Programming with Python
+This project was developed as part of a university Programming with Python course at Asia Pacific University (APU).
 
-\*\*Institution:\*\* Asia Pacific University of Technology \& Innovation (APU)
+The repository is shared as a portfolio project to demonstrate software development, modular programming, and Python file handling skills.
 
-\*\*Project Type:\*\* Group Assignment
-
-\---
+---
 
 
-## Notice
+## ⚠️ Notice
 
 This repository is shared for educational and portfolio purposes.
 
 The project was developed as part of a university group assignment. Please do not copy or submit this work as your own academic assignment.
 
-\---
+---
