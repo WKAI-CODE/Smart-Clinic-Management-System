@@ -1,22 +1,12 @@
 \# 🏥 Smart Clinic Management System
 
-
-
 A modular \*\*file-based Clinic Management System\*\* developed in \*\*Python\*\* as a university group project. The system is designed to manage the daily operations of a clinic, including patient registration, appointment scheduling, consultation recording, billing, payment processing, and administrative reporting.
-
-
 
 \---
 
-
-
 \## 📖 Project Overview
 
-
-
 The Smart Clinic Management System is a console-based application that simulates the workflow of a real clinic. The project is divided into four modules:
-
-
 
 \- Receptionist
 
@@ -26,94 +16,53 @@ The Smart Clinic Management System is a console-based application that simulates
 
 \- Administrator
 
-
-
 Each module is responsible for a different part of the clinic management process, while sharing the same text-file database.
 
-
-
 \---
-
-
 
 \# 📸 Screenshots
 
-
-
 \## Main Menu
-
-
 
 !\[Main Menu](screenshots/main\_menu.png)
 
-
-
 \---
-
-
 
 \## Receptionist Module
 
-
-
 !\[Receptionist](screenshots/receptionist\_1.png)
+
 !\[Receptionist](screenshots/receptionist\_2.png)
-
-
 
 \---
 
-
-
 \## Doctor Module
-
-
 
 !\[Doctor](screenshots/doctor\_1.png)
 
 !\[Doctor](screenshots/doctor\_2.png)
 
-
-
 \---
 
-
-
 \## Finance Module
-
-
 
 !\[Finance](screenshots/finance\_1.png)
 
 !\[Finance](screenshots/finance\_2.png)
 
-
-
 \---
 
-
-
 \## Admin Module
-
-
 
 !\[Admin](screenshots/admin\_1.png)
 
 !\[Admin](screenshots/admin\_2.png)
 
-
-
 \---
-
-
 
 \# ✨ Features
 
-
-
 \## 👩‍💼 Receptionist
-
-
 
 \- Register new patients
 
@@ -125,15 +74,9 @@ Each module is responsible for a different part of the clinic management process
 
 \- Check doctor availability
 
-
-
 \---
 
-
-
 \## 👨‍⚕️ Doctor
-
-
 
 \- View appointment schedule
 
@@ -143,15 +86,9 @@ Each module is responsible for a different part of the clinic management process
 
 \- Save consultation records
 
-
-
 \---
 
-
-
 \## 💰 Finance Officer
-
-
 
 \- Generate patient bills
 
@@ -165,15 +102,9 @@ Each module is responsible for a different part of the clinic management process
 
 \- View bill details
 
-
-
 \---
 
-
-
 \## 👨‍💻 Administrator
-
-
 
 \- Add new doctors
 
@@ -185,15 +116,9 @@ Each module is responsible for a different part of the clinic management process
 
 \- Generate clinic reports
 
-
-
 \---
 
-
-
 \# 🛠 Technologies Used
-
-
 
 \- Python 3
 
@@ -213,79 +138,44 @@ Each module is responsible for a different part of the clinic management process
 
 \- Text File Database
 
-
-
 \---
 
-
-
 \# 📂 Project Structure
-
-
 
 ```text
 
 Smart-Clinic-Management-System
 
 │
-
 ├── main.py
-
 ├── receptionist\_part.py
-
 ├── doctor\_part.py
-
 ├── finance\_officer\_part.py
-
 ├── admin\_part.py
-
 │
-
 ├── patient.txt
-
 ├── doctors.txt
-
 ├── appointments.txt
-
 ├── consultations.txt
-
 ├── billing.txt
-
 ├── clinic\_settings.txt
-
 │
-
 ├── screenshots/
-
 │   ├── main\_menu.png
-
 │   ├── receptionist.png
-
 │   ├── doctor.png
-
 │   ├── finance.png
-
 │   └── admin.png
-
 │
-
 └── README.md
 
 ```
 
-
-
 \---
-
-
 
 \# 💾 Data Storage
 
-
-
 This project uses \*\*text files\*\* as a simple database.
-
-
 
 | File | Description |
 
@@ -303,15 +193,9 @@ This project uses \*\*text files\*\* as a simple database.
 
 | clinic\_settings.txt | Stores clinic settings |
 
-
-
 \---
 
-
-
 \# 🚀 How to Run
-
-
 
 1\. Download or clone this repository.
 
@@ -321,35 +205,19 @@ This project uses \*\*text files\*\* as a simple database.
 
 4\. Run:
 
-
-
 ```bash
-
 python main.py
-
 ```
-
-
 
 5\. Follow the menu displayed in the terminal.
 
-
-
 \---
-
-
 
 \# 👨‍💻 My Contribution
 
-
-
 This project was developed as a \*\*university group assignment\*\*.
 
-
-
 My primary responsibilities included:
-
-
 
 \- Designing and developing the \*\*Finance Officer Module\*\*
 
@@ -367,23 +235,13 @@ My primary responsibilities included:
 
 \- System integration testing between all modules
 
-
-
 I also participated in debugging, testing, and ensuring compatibility between the Receptionist, Doctor, Finance Officer, and Administrator modules.
-
-
 
 \---
 
-
-
 \# 📈 Future Improvements
 
-
-
 Possible future enhancements include:
-
-
 
 \- Replace text files with SQLite or MySQL
 
@@ -401,37 +259,20 @@ Possible future enhancements include:
 
 \- Cloud database integration
 
-
-
 \---
-
-
 
 \# 📚 Academic Information
 
-
-
 \*\*Course:\*\* Programming with Python
-
-
 
 \*\*Institution:\*\* Asia Pacific University of Technology \& Innovation (APU)
 
-
-
 \*\*Project Type:\*\* Group Assignment
-
-
 
 \---
 
-
-
 \# 📄 License
-
-
 
 This project is shared for educational and portfolio purposes.
 
 \---
-
